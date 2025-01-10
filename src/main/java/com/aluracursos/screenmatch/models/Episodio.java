@@ -17,7 +17,6 @@ public class Episodio {
     private Integer numeroEpisodio;
     private Double evaluacion;
     private LocalDate fechaDeLanzamiento;
-
     @ManyToOne
     private Serie serie;
 
